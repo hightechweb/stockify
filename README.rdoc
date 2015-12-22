@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the repository for the Stockify RoR app 
 
-Things you may want to cover:
+This app includes the following:
 
-* Ruby version
+* Authentication system
 
-* System dependencies
+* User stock ticker tracking
 
-* Configuration
+* User search stock tickers using API
 
-* Database creation
+* User can add stock from search results to portfolio
 
-* Database initialization
+* User can lookup friends, or other users by name or email
 
-* How to run the test suite
+* User can view stock portfolio of self or friends for investing ideas
 
-* Services (job queues, cache servers, search engines, etc.)
+* Built in bootstap for mobile responsive
 
 * Deployment instructions
 
 * ...
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please feel free to contribute!
