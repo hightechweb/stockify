@@ -1,6 +1,6 @@
 == README
 
-This is the repository for the Stockify RoR app 
+This is the repository for the Stockify RoR app
 
 This app includes the following:
 
@@ -17,10 +17,6 @@ This app includes the following:
 * User can view stock portfolio of self or friends for investing ideas
 
 * Built in bootstap for mobile responsive
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to contribute!
