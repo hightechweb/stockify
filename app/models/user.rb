@@ -3,6 +3,9 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  validates :first_name, :last_name, presence: true, on: :create # which won't validate presence of name on update action
+
   has_many :user_stocks
   has_many :stocks, through: :user_stocks
   has_many :friendships
