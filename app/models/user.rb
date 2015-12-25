@@ -4,7 +4,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  validates :first_name, :last_name, presence: true, on: :create # which won't validate presence of name on update action
+  # validate additional devise custom fields, which won't validate presence of name on update action
+  validates :first_name, :last_name, presence: true, on: :create 
 
   has_many :user_stocks
   has_many :stocks, through: :user_stocks
